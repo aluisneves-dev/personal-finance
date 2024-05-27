@@ -11,17 +11,17 @@ cp .env.example .env
 
 2) Abra o arquivo .env e configure as variáveis de ambiente, especialmente as configurações do banco de dados. Por exemplo:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=seu_banco_de_dados
-DB_USERNAME=seu_usuario
-DB_PASSWORD=sua_senha
+<p>DB_CONNECTION=mysql</p>
+<p>DB_HOST=127.0.0.1</p>
+<p>DB_PORT=3306</p>
+<p>DB_DATABASE=seu_banco_de_dados</p>
+<p>DB_USERNAME=seu_usuario</p>
+<p>DB_PASSWORD=sua_senha</p>
 
 Inclua também as chaves do google recaptcha, se cadastrando e criando chaves para localhost:
 
-GOOGLE_RECAPTCHA_KEY=
-GOOGLE_RECAPTCHA_SECRET=
+<p>GOOGLE_RECAPTCHA_KEY=</p>
+<p>GOOGLE_RECAPTCHA_SECRET=</p>
 
 3) Laravel usa uma chave de aplicação para segurança. Gere essa chave usando o Artisan digitando o seguinte comando no terminal:
 
